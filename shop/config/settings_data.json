@@ -1,0 +1,450 @@
+{
+  "current": {
+    "color_background": "#ffffff",
+    "color_headings": "#000000",
+    "color_text": "#000000",
+    "color_links": "#0f2632",
+    "color_button_background": "#00a21f",
+    "color_button_text": "#ffffff",
+    "color_header_background": "#0f2632",
+    "color_header_text": "#ffffff",
+    "color_footer_background": "#0f2632",
+    "color_footer_text": "#ffffff",
+    "type_body": "helvetica_n4",
+    "type_heading": "helvetica_n7",
+    "product_show_vendor": false,
+    "product_show_sku": false,
+    "enable_image_zoom": false,
+    "image_zoom_level": "min",
+    "product_enable_recently_viewed_products": true,
+    "product_option_style": "select",
+    "product_sales_badge": true,
+    "product_sales_badge_style": "percentile",
+    "product_ratings_reviews": true,
+    "product_social_sharing": false,
+    "product_slideshow_style": "natural",
+    "product_grid_show_second_image": false,
+    "product_grid_emphasize_price": true,
+    "product_grid_image_style": "small",
+    "product_grid_quick_shop": true,
+    "product_grid_quick_buy": true,
+    "quickshop_show_dcb": false,
+    "quickshop_product_cart_redirect": false,
+    "social_default_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/ForbeDeals\/",
+    "social_twitter": "https:\/\/www.facebook.com\/ForbeDeals\/",
+    "social_google": "",
+    "social_pinterest": "https:\/\/www.facebook.com\/ForbeDeals\/",
+    "social_instagram": "https:\/\/www.facebook.com\/ForbeDeals\/",
+    "social_tumblr": "",
+    "social_vimeo": "",
+    "social_youtube": "https:\/\/www.facebook.com\/ForbeDeals\/",
+    "social_email": "support@forbedeal.com",
+    "favicon": "",
+    "enable_currency_converter": true,
+    "currency_display_format": "money_with_currency_format",
+    "currency_converter_currencies": "EUR",
+    "currency_converter_default": "EUR",
+    "continue_shopping_url": "",
+    "continue_url_cart": true,
+    "continue_url_404": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#00a21f",
+    "checkout_error_color": "#ff6d6d",
+    "font_body": "Google_Cabin_400,400i,700,700i",
+    "font_heading": "Google_Cabin_400,400i,700,700i",
+    "product_cart_redirect": false,
+    "product_grid_quick_look": false,
+    "show_multiple_currencies": true,
+    "show_decimal_places": true,
+    "hide_decimal_places": false,
+    "currency_format": "money_with_currency_format",
+    "supported_currencies": "INR GBP CAD USD AUD EUR JPY",
+    "default_currency": "USD",
+    "sections": {
+      "static-header": {
+        "type": "static-header",
+        "blocks": {
+          "1587170586455": {
+            "type": "meganav_images",
+            "settings": {
+              "meganav_trigger": "",
+              "image_1": "",
+              "text_1": "",
+              "link_1": "",
+              "position_1": "first",
+              "size_1": "small",
+              "image_2": "",
+              "text_2": "",
+              "link_2": "",
+              "position_2": "first",
+              "size_2": "small"
+            }
+          },
+          "1587170600003": {
+            "type": "meganav_images",
+            "settings": {
+              "meganav_trigger": "",
+              "image_1": "",
+              "text_1": "",
+              "link_1": "",
+              "position_1": "first",
+              "size_1": "small",
+              "image_2": "",
+              "text_2": "",
+              "link_2": "",
+              "position_2": "first",
+              "size_2": "small"
+            }
+          }
+        },
+        "block_order": [
+          "1587170586455",
+          "1587170600003"
+        ],
+        "settings": {
+          "sticky_header": true,
+          "logo": "",
+          "logo_height": 100,
+          "logo_width": 200,
+          "enable_live_search": true,
+          "enable_live_search_images": false,
+          "enable_live_search_articles_pages": false,
+          "quick_links": "",
+          "menu": "main-menu",
+          "show_announcement": false,
+          "homepage_announcement": false,
+          "announcement_text": "",
+          "announcement_text_mobile": "",
+          "announcement_link": "",
+          "announcement_color": "#ffffff",
+          "announcement_background": "",
+          "small_promo_heading": "",
+          "small_promo_text": "",
+          "small_promo_text_mobile": "",
+          "small_promo_link": "",
+          "small_promo_icon": "none",
+          "image": ""
+        }
+      },
+      "static-footer": {
+        "type": "static-footer",
+        "blocks": {
+          "1505952414301": {
+            "type": "rich_text",
+            "settings": {
+              "title": "ABOUT US",
+              "text": "<p>Shop around for some of the best deals online. We work closely with many suppliers to get you low prices for high quality products. Have a look and see. Take advantage of our prices while stock lasts!<\/p>"
+            }
+          },
+          "1505957932701": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "1505952721829": {
+            "type": "social_accounts",
+            "settings": {
+            }
+          },
+          "static-footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Sign up for our newsletter",
+              "text": "<p>Be the first to know about coupons and special promotions.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1505952414301",
+          "1505957932701",
+          "1505952721829",
+          "static-footer-1"
+        ],
+        "settings": {
+          "payment_icons": true,
+          "additional_menu": "footer"
+        }
+      },
+      "static-product": {
+        "type": "static-product",
+        "settings": {
+          "layout": "layout--two-col",
+          "enable_related_products": true,
+          "enable_video_autoplay": false,
+          "show_dcb": false,
+          "product_cart_redirect": false
+        }
+      },
+      "static-collection": {
+        "type": "static-collection",
+        "settings": {
+          "show_collection_image": true,
+          "products_per_page_range": 48,
+          "sort_by": true,
+          "show_by": true,
+          "grid_list": true,
+          "show_sidebar": true,
+          "filter_style": "none",
+          "filter_limit": "999",
+          "filter_position": "above_menus",
+          "menu_depth_range": 1
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "blocks": {
+          "1587169843709": {
+            "type": "richtext",
+            "settings": {
+              "richtext": "<p>Nous sommes tr&egrave;s attentifs au respect des conditions d'hygi&egrave;ne en cette p&eacute;riode COVID_19.<\/p>\n<p><\/p>\n<p>C'est pourquoi nous avons mis en place ce service de livraison &agrave; domicile et de&nbsp;retrait en magasin pour continuer &agrave; vous proposer nos s&eacute;lections de plats.<\/p>"
+            }
+          },
+          "1587170110086": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/paiement_securise_grande_3765de50-b3f4-45b2-8f23-4fbc4e5ed76b_large_copie_0.png"
+            }
+          }
+        },
+        "block_order": [
+          "1587169843709",
+          "1587170110086"
+        ],
+        "settings": {
+          "enable_order_notes": false,
+          "enable_shipping_calc": true,
+          "shipping_calc_default_country": "United States"
+        }
+      },
+      "1510618581868": {
+        "type": "dynamic-promo-mosaic",
+        "disabled": true,
+        "blocks": {
+          "1510618581868-0": {
+            "type": "promotion",
+            "settings": {
+              "image": "",
+              "title": "",
+              "text": "",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
+          }
+        },
+        "block_order": [
+          "1510618581868-0"
+        ],
+        "settings": {
+          "title": "",
+          "section_height": "small",
+          "text_alignment": "top-left",
+          "maintain_aspect_ratio": false,
+          "compress_blocks": false
+        }
+      },
+      "1511208399697": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "",
+          "collection": "classique",
+          "banner_color": "#ffffff",
+          "banner_image": ""
+        }
+      },
+      "static-search": {
+        "type": "static-search",
+        "settings": {
+          "results_per_page_range": 24,
+          "enable_search_articles_pages": true
+        }
+      },
+      "static-slideshow": {
+        "type": "static-slideshow",
+        "blocks": {
+          "static-slideshow-0": {
+            "type": "slide",
+            "settings": {
+              "background_image": "",
+              "title": "Slideshow",
+              "text": "Introduce customers to your shop with lifestyle and product imagery",
+              "color": "#ffffff",
+              "link": "",
+              "text_alignment": "center",
+              "button_one_label": "Button",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
+          "static-slideshow-1": {
+            "type": "slide",
+            "settings": {
+              "background_image": "",
+              "title": "Slideshow",
+              "text": "Introduce customers to your shop with lifestyle and product imagery",
+              "color": "#ffffff",
+              "link": "",
+              "text_alignment": "center",
+              "button_one_label": "Button",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          }
+        },
+        "block_order": [
+          "static-slideshow-0",
+          "static-slideshow-1"
+        ],
+        "settings": {
+          "show_slideshow": false,
+          "enable_autoplay": true,
+          "autoplay_duration": 8,
+          "slideshow_height": "medium"
+        }
+      },
+      "static-highlights-banners": {
+        "type": "static-highlights-banners",
+        "blocks": {
+          "static-highlights-banners-0": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-delivery",
+              "image": "",
+              "title": "Livraison à domicile",
+              "text": "Paris et grande couronne",
+              "link": ""
+            }
+          },
+          "static-highlights-banners-3": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-pin",
+              "image": "",
+              "title": "Retrait en magasin",
+              "text": "Rosny-sous-Bois",
+              "link": ""
+            }
+          },
+          "static-highlights-banners-1": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-cell-phone",
+              "image": "",
+              "title": "Appelez nous",
+              "text": "01 47 63 95 65",
+              "link": ""
+            }
+          },
+          "static-highlights-banners-2": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-email",
+              "image": "",
+              "title": "Ecrivez nous",
+              "text": "Réponse sous 24h",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "static-highlights-banners-0",
+          "static-highlights-banners-3",
+          "static-highlights-banners-1",
+          "static-highlights-banners-2"
+        ],
+        "settings": {
+          "show_highlights_banner": false,
+          "color": "#4d4d4d",
+          "icon_color": "#4d4d4d",
+          "background_color": "#f8f8f8"
+        }
+      }
+    },
+    "content_for_index": [
+      "1510618581868",
+      "1511208399697"
+    ]
+  },
+  "presets": {
+    "Supply": {
+      "color_background": "#ffffff",
+      "color_headings": "#222222",
+      "color_text": "#4d4d4d",
+      "color_links": "#29927d",
+      "color_button_background": "#ffab41",
+      "color_button_text": "#1a390c",
+      "color_header_background": "#30656b",
+      "color_header_text": "#ffffff",
+      "color_footer_background": "#f8f8f8",
+      "color_footer_text": "#5c5c5c",
+      "font_body": "Google_Cabin_400,400i,700,700i",
+      "font_heading": "Google_Cabin_400,400i,700,700i",
+      "content_for_index": [
+
+      ]
+    },
+    "Graphic": {
+      "color_background": "#ffffff",
+      "color_headings": "#484848",
+      "color_text": "#4d4d4d",
+      "color_links": "#e32619",
+      "color_button_background": "#e32619",
+      "color_button_text": "#ffffff",
+      "color_header_background": "#ffffff",
+      "color_header_text": "#484848",
+      "color_footer_background": "#ffffff",
+      "color_footer_text": "#686868",
+      "font_body": "Google_Cabin_400,400i,700,700i",
+      "font_heading": "Google_Cabin_400,400i,700,700i",
+      "content_for_index": [
+
+      ]
+    },
+    "Industrial": {
+      "color_background": "#ffffff",
+      "color_headings": "#4c4c4c",
+      "color_text": "#4c5154",
+      "color_links": "#0076de",
+      "color_button_background": "#0076de",
+      "color_button_text": "#ffffff",
+      "color_header_background": "#1d2236",
+      "color_header_text": "#ffffff",
+      "color_footer_background": "#edeff3",
+      "color_footer_text": "#5c5c5c",
+      "font_body": "Google_Libre+Franklin_400,400i,700,700i",
+      "font_heading": "Google_Arimo_400,400i,700,700i",
+      "content_for_index": [
+
+      ]
+    }
+  }
+}
