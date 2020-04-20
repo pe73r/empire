@@ -172,22 +172,6 @@
       {% endif %}
     </div>
 
-
-    <form class="FeaturedCollectionForm" method="post" action="/cart/add">
-        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-        <!-- <input min="1" type="number" id="quantity" name="quantity" value="1"/> -->
-        <div class="qtydiv">
-               <!-- <label for="Quantity" class="quantity-selector">Quantity</label> -->
-               <div class="qtybox">
-                 <span class="btnqty qtyminus icon icon-minus">-</span>
-                 <input type="text" name="quantity" value="1" min="1" class="quantity-selector quantity-input" readonly="">
-                 <span class="btnqty qtyplus icon icon-plus">+</span>
-               </div>
-        </div>
-          <input type="submit" value="Add to cart" class="FeaturedCollectionButton" data-quickshop-full/> 
-
-    </form>
-
     {% if enable_quick_shop or enable_quick_buy %}
       {% comment %}
         Default button appearance and text

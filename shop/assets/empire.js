@@ -15781,9 +15781,9 @@ function inViewport(el) {
  * @property {Size} [max]
  *           The maximum available size for the image. This ensures we don't
  *           try to load an image larger than is possible.
- * 
+ *
  * @property {Number} [scale]
- *           A number to scale the final image dimensions by. 
+ *           A number to scale the final image dimensions by.
  *           Only applies to lazy-loaded images. Defaults to 1.
  *
  * @property {Number} [round]
@@ -15793,9 +15793,9 @@ function inViewport(el) {
  *
  * @property {Size} [placeholder]
  *           The size of the lo-fi image to load before the full image.
- * 
+ *
  * @property {String} [crop]
- *           Crop value; null if image is uncropped, otherwise equal 
+ *           Crop value; null if image is uncropped, otherwise equal
  *           to the Shopify crop parameter ('center', 'top', etc.).
  */
 
@@ -18661,11 +18661,11 @@ var script$1 = createCommonjsModule(function (module) {
     setTimeout(function () {
       each(paths, function loading(path, force) {
         if (path === null) return callback()
-        
+
         if (!force && !/^https?:\/\//.test(path) && scriptpath) {
           path = (path.indexOf('.js') === -1) ? scriptpath + path + '.js' : scriptpath + path;
         }
-        
+
         if (scripts[path]) {
           return (scripts[path] == 2) ? callback() : setTimeout(function () { loading(path, true); }, 0)
         }
@@ -28360,3 +28360,17 @@ new Page();
 
 }());
 //# sourceMappingURL=empire.js.map?1536106802561
+
+
+$('.qtybox .btnqty').on('click', function(){
+	var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val());
+	if($(this).hasClass('qtyplus')) {
+		qty++;
+	}else {
+		if(qty > 1) {
+			qty--;
+		}
+	}
+	qty = (isNaN(qty))?1:qty;
+	$(this).parent('.qtybox').find('.quantity-input').val(qty);
+});

@@ -17,52 +17,20 @@
         include 'product-grid-item',
         product: product
       %}
-         
+
     {% endfor %}
   </div>
 </section>
 
-<style>
-  #shopify-section-{{section.id}} .featured-collection--banner {
-    color: {{ section.settings.banner_color }};
-
-    {% unless section.settings.banner_image %}
-      background-color: {{ settings.color_links }};
-    {% endunless %}
-  }
-</style>
-
 {% schema %}
 {
   "name": "Featured collection",
-  "class": "featured-collection--section",
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Featured collection"
-    },
+
     {
       "id": "collection",
       "type": "collection",
       "label": "Collection"
-    },
-    {
-      "type": "header",
-      "content": "Call to action"
-    },
-    {
-      "type": "color",
-      "id": "banner_color",
-      "label": "Text color",
-      "default": "#ffffff"
-    },
-    {
-      "id": "banner_image",
-      "type": "image_picker",
-      "label": "Image",
-      "info": "500 x 750px .jpg recommended"
     }
   ],
   "presets": [

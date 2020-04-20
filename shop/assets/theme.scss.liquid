@@ -13062,7 +13062,7 @@ $local-button-size: rem(28px) + (rem(2px) * 2); // size + (padding * 2)
   position: relative;
   z-index: 1;
   display: none;
-  
+
   @include media($min: $bp-small) {
     display: block;
   }
@@ -15824,3 +15824,59 @@ $local-image-width: rem(48px);
   text-align: center;
 }
 
+
+// Styles custom///
+
+.qtydiv label{
+  display: block;
+  margin-bottom: 12px;
+  letter-spacing: 2.8px;
+  color: #747a7b;
+}
+.qtydiv .btnqty{
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  font-size: 25px;
+  padding: 5px;
+  line-height: 5px;
+}
+.qtydiv .btnqty.qtyminus{
+  margin-right: 8px;
+}
+.qtydiv .btnqty.qtyplus{
+  margin-left: 8px;
+}
+.qtydiv .quantity-input{
+
+  border: none;
+  padding: 8px;
+  text-align: center;
+  width: 50px;
+  outline: none;
+  display: inline-block;}
+
+.qtydiv {
+  display: inline-block;
+
+}
+
+.FeaturedCollectionForm{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.FeaturedCollectionButton{
+    cursor: pointer;
+    padding: 10px 18px;
+    background-color: $color-button-background;
+    border: none;
+    color: $color-button-text;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 10px;
+     &:hover{
+         background-color: $color-button-background-hover;
+     }
+}
